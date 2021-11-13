@@ -1,0 +1,69 @@
+:root {
+  --ifm-leading-desktop: 1.75;
+  --ifm-list-margin: 2rem;
+
+  /* Code */
+  --ifm-code-border-radius: .25rem;
+  --ifm-code-padding-vertical: 2px;
+  --ifm-code-padding-horizontal: 5px;
+
+  /* Alerts */
+  --ifm-color-info-dark: #305ec9;
+  --ifm-alert-border-width: 1px;
+  --ifm-color-success-contrast-background: #fff;
+  --ifm-color-info-contrast-background: #fff;
+  --ifm-color-warning-contrast-background: #fff;
+  --ifm-color-secondary-contrast-background: #fff;
+
+  --ifm-color-primary: #5fa0ff;
+  --ifm-heading-color: var(--ifm-color-emphasis-900);
+
+  /* Quotes */
+  --ifm-blockquote-background-color: #f8f9fc;
+  --ifm-blockquote-border-color: #edeff4;
+
+  /* Font */
+  --ifm-code-font-size: 90%;
+  --ifm-font-size-base: 95%;
+  --ifm-font-family-base: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+  --ifm-color-info-contrast-background: #fefefe;
+}
+
+html[data-theme="dark"] {
+  --ifm-color-emphasis-0: var(--ifm-color-gray-1000);
+  --ifm-color-emphasis-100: var(--ifm-color-gray-900);
+  --ifm-color-emphasis-200: var(--ifm-color-gray-800);
+  --ifm-color-emphasis-300: var(--ifm-color-gray-700);
+  --ifm-color-emphasis-400: var(--ifm-color-gray-600);
+  --ifm-color-emphasis-600: var(--ifm-color-gray-400);
+  --ifm-color-emphasis-700: var(--ifm-color-gray-300);
+  --ifm-color-emphasis-800: var(--ifm-color-gray-200);
+  --ifm-color-emphasis-900: var(--ifm-color-gray-100);
+  --ifm-color-emphasis-1000: var(--ifm-color-gray-0);
+  --ifm-background-color: #18191a;
+  --ifm-background-surface-color: #242526;
+  --ifm-hover-overlay: hsla(0,0%,100%,0.05);
+  --ifm-color-content-secondary: #fff;
+  --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%) hue-rotate(149deg) brightness(99%) contrast(95%);
+  --ifm-code-background: hsla(0,0%,100%,0.1);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='dark']  .alert {
+  border-color: #272727 #272727 #272727 var(--ifm-alert-border-color);
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
