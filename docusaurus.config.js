@@ -61,15 +61,15 @@ const config = {
             items: [
               {
                 label: 'Aspor Service (.Net / OData)',
-                to: '/docs/service',
+                to: '/docs/service/getting-started',
               },
               {
                 label: 'Aspor Client (React TS)',
-                to: '/docs/service',
+                to: '/docs/client/getting-started',
               },
               {
                 label: 'Aspor Streaming (.Net)',
-                to: '/docs/service',
+                to: '/docs/streaming/getting-started',
               },
             ],
           },
