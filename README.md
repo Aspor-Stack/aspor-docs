@@ -9,7 +9,6 @@ Aspor-Stack | docs
 
 ---
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/Aspor-Stack/aspor/blob/master/LICENSE)
-[![CI](https://github.com/Aspor-Stack/aspor/actions/workflows/publish.yml/badge.svg)](https://github.com/Aspor-Stack/aspor/actions/workflows/publish.yml)
 [![Documentation](https://img.shields.io/badge/-Documentation-blueviolet)](https://aspor-stack.github.io/aspor-docs/docs/introduction)
 
 
