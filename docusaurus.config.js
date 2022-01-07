@@ -7,30 +7,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Aspor Stack',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Build fast, modern and reliable web applications ',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'images/favicon.ico',
   organizationName: 'aspor-stack',
   projectName: 'aspor',
 
   presets: [
     [
       '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          editUrl: 'https://github.com/Aspor-Stack/aspor-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -40,13 +32,12 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Aspor',
+        title: 'Aspor Stack',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Aspor logo',
+          src: 'images/logo.png',
         },
         items: [
           {
@@ -56,12 +47,7 @@ const config = {
             label: 'Docs',
           },
           {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left'
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Aspor-Stack/aspor',
             label: 'GitHub',
             position: 'right',
           },
@@ -74,8 +60,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Docs',
-                to: '/docs/introduction',
+                label: 'Aspor Service (.Net / OData)',
+                to: '/docs/service',
+              },
+              {
+                label: 'Aspor Client (React TS)',
+                to: '/docs/service',
+              },
+              {
+                label: 'Aspor Streaming (.Net)',
+                to: '/docs/service',
               },
             ],
           },
@@ -84,15 +78,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/aspor-stack',
               },
             ],
           },
@@ -100,12 +86,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Aspor-Stack/aspor',
               },
             ],
           },

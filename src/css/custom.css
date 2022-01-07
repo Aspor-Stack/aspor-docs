@@ -11,7 +11,6 @@
   --ifm-color-info-dark: #305ec9;
   --ifm-alert-border-width: 1px;
   --ifm-color-success-contrast-background: #fff;
-  --ifm-color-info-contrast-background: #fff;
   --ifm-color-warning-contrast-background: #fff;
   --ifm-color-secondary-contrast-background: #fff;
 
@@ -47,6 +46,7 @@ html[data-theme="dark"] {
   --ifm-color-content-secondary: #fff;
   --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%) hue-rotate(149deg) brightness(99%) contrast(95%);
   --ifm-code-background: hsla(0,0%,100%,0.1);
+  --ifm-footer-background-color: #2b3137
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
