@@ -39,22 +39,3 @@ services.AddControllers()
              .AddAsporExport()
 ```
 
-
-* Common
-    * Model helpers
-    * Return Preferences
-    * ETag
-    * OData Page Sizing
-* Validation
-    * Types
-    * Pre Validation
-    * Rule Validation
-* EF
-    * Timestamps and executes
-    * Controller
-* Authorization
-    * users
-    * permissions
-* Export
-    
-
