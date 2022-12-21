@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaspor_docs=self.webpackChunkaspor_docs||[]).push([[901],{2569:function(s){s.exports=JSON.parse('{"allTagsPath":"/aspor-docs/blog/tags","slug":"/aspor-docs/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/aspor-docs/blog/tags/docusaurus"}')}}]);

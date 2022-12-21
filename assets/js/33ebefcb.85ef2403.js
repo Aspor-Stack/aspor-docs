@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaspor_docs=self.webpackChunkaspor_docs||[]).push([[810],{9722:function(o){o.exports=JSON.parse('{"allTagsPath":"/aspor-docs/blog/tags","slug":"/aspor-docs/blog/tags/facebook","name":"facebook","count":1,"permalink":"/aspor-docs/blog/tags/facebook"}')}}]);
